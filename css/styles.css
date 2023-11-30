@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+:root {
+  /* primary colors */
+  --clr-primary-1-darkMagenta: hsl(300, 43%, 22%);
+  --clr-primary-2-softPink: hsl(333, 80%, 67%);
+
+  /* secondary colors */
+  --clr-secondary-1-darkGrayMagenta: hsl(303, 10%, 53%);
+  --clr-secondary-2-lightGrayMagenta: hsl(300, 24%, 96%);
+  --clr-secondary-3-white: hsl(0, 0%, 100%);
+
+  /* fonts */
+  --bodyFont: "League Spartan", sans-serif;
+
+  /* box shadow */
+  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* body */
+
 /* credits */
 .attribution {
   font-size: 11px;
