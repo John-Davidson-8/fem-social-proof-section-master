@@ -60,8 +60,30 @@ header p {
   font-weight: 500;
 }
 .five-star-reviews {
+  margin-top: 2.438rem;
+  margin-bottom: 3.063rem;
   display: grid;
-  gap: 3rem;
+  grid-template-columns: 1;
+  gap: 1rem;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--clr-secondary-2-lightGrayMagenta);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+.review-card p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.063rem;
+  color: var(--clr-primary-1-darkMagenta);
 }
 
 /* credits */
