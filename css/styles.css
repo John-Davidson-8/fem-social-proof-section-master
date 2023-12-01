@@ -32,7 +32,6 @@ body {
   min-height: 100vh;
   max-width: 36rem;
   margin: 4rem auto;
-  border: solid red 1px;
   background: var(--clr-secondary-3-white);
   padding: 5.125rem 1.5rem auto 1.5rem;
 }
@@ -84,6 +83,76 @@ header p {
   font-weight: 900;
   font-size: 1.063rem;
   color: var(--clr-primary-1-darkMagenta);
+}
+.testimonial-anne {
+  margin-bottom: 6.188rem;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1;
+  gap: 1rem;
+  margin-bottom: 6.188rem;
+  background: url(../images/bg-pattern-bottom-mobile.svg);
+}
+.testimonial {
+  background: var(--clr-primary-1-darkMagenta);
+  border-radius: 0.5rem;
+  padding: 2.5rem 2rem 2.188rem 2rem;
+}
+.testimonial-flex {
+  display: flex;
+}
+.testimonial-flex img {
+  border-radius: 50%;
+  max-width: 2.5rem;
+  margin-right: 1.438rem;
+}
+.testimonial-details {
+  margin-top: 1.438rem;
+  line-height: 1.375rem;
+  color: var(--clr-secondary-3-white);
+  font-size: 1.063rem;
+}
+.name {
+  color: var(--clr-secondary-3-white);
+  font-size: 1.063rem;
+  font-weight: 900;
+}
+.verify {
+  font-size: 1.063rem;
+  font-weight: 400;
+  color: var(--clr-primary-2-softPink);
+}
+@media (min-width: 60rem) {
+  .container {
+    padding: 7.575rem 10.313rem 6.25rem 10.313rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 87rem;
+    gap: 4.438rem;
+  }
+  header h1 {
+    max-width: 21rem;
+    text-align: left;
+    line-height: 3rem;
+    font-size: 3rem;
+  }
+  header p {
+    text-align: left;
+    max-width: 27.813rem;
+  }
+  .testimonials {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .review-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .five-star-reviews {
+    display: grid;
+  }
 }
 
 /* credits */
