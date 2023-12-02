@@ -64,6 +64,7 @@ header p {
   display: grid;
   grid-template-columns: 1;
   gap: 1rem;
+  border: 1px solid red;
 }
 .review-card {
   display: flex;
@@ -123,7 +124,7 @@ header p {
   font-weight: 400;
   color: var(--clr-primary-2-softPink);
 }
-@media (min-width: 60rem) {
+@media (min-width: 80rem) {
   .container {
     padding: 7.575rem 10.313rem 6.25rem 10.313rem;
     display: grid;
@@ -149,9 +150,17 @@ header p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    max-height: 3.5rem;
+    max-width: 27.813rem;
   }
+  /* Make a grid? */
+
   .five-star-reviews {
     display: grid;
+    grid-column: ;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
