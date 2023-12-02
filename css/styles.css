@@ -129,7 +129,7 @@ header p {
     padding: 7.575rem 10.313rem 6.25rem 10.313rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 87rem;
+    max-width: 100rem;
     gap: 4.438rem;
   }
   header h1 {
@@ -154,13 +154,14 @@ header p {
     max-height: 3.5rem;
     max-width: 27.813rem;
   }
+
   /* Make a grid? */
 
   .five-star-reviews {
     display: grid;
-    grid-column: ;
-    align-items: center;
-    gap: 1rem;
+    /* align-items: center; */
+    /* gap: 0; */
+    grid-template-rows: ;
   }
 }
 
