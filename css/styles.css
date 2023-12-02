@@ -128,7 +128,7 @@ header p {
   .container {
     padding: 7.575rem 10.313rem 6.25rem 10.313rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     max-width: 100rem;
     gap: 4.438rem;
   }
