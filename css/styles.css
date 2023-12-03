@@ -19,7 +19,6 @@
   --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
-
 /* body */
 body {
   font-family: var(--bodyFont);
@@ -71,6 +70,7 @@ header p {
   background: var(--clr-secondary-2-lightGrayMagenta);
   padding: 1rem;
   border-radius: 0.5rem;
+  box-shadow: var(--shadow-4);
 }
 .stars {
   display: flex;
@@ -98,6 +98,7 @@ header p {
   background: var(--clr-primary-1-darkMagenta);
   border-radius: 0.5rem;
   padding: 2.5rem 2rem 2.2rem 2rem;
+  box-shadow: var(--shadow-4);
 }
 .testimonial-flex {
   display: flex;
@@ -187,7 +188,6 @@ header p {
     grid-area: 3 / 3 / 9 / 4;
   }
 }
-
 /* credits */
 .attribution {
   font-size: 11px;
