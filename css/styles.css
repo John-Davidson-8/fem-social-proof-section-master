@@ -26,14 +26,14 @@ body {
   font-size: 0.938rem;
   color: var(--clr-secondary-1-darkGrayMagenta);
   background: var(--clr-secondary-2-lightGrayMagenta);
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
 }
 .container {
   min-height: 100vh;
   max-width: 36rem;
   margin: 4rem auto;
   background: var(--clr-secondary-3-white);
-  /* padding: 5.125rem 1.5rem auto 1.5rem; */
+  /* padding: 5.1rem 1.5rem auto 1.5rem; */
 }
 .section-centre {
   padding-left: 1.5rem;
@@ -42,6 +42,7 @@ body {
 header {
   padding-top: 5.125rem;
   background: url(../images/bg-pattern-top-mobile.svg);
+  border: 1px solid red;
 }
 header h1 {
   font-family: var(--bodyFont);
@@ -64,7 +65,7 @@ header p {
   display: grid;
   grid-template-columns: 1;
   gap: 1rem;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .review-card {
   display: flex;
@@ -94,6 +95,7 @@ header p {
   gap: 1rem;
   margin-bottom: 6.188rem;
   background: url(../images/bg-pattern-bottom-mobile.svg);
+  border: 1px solid red;
 }
 .testimonial {
   background: var(--clr-primary-1-darkMagenta);
@@ -124,7 +126,7 @@ header p {
   font-weight: 400;
   color: var(--clr-primary-2-softPink);
 }
-@media (min-width: 80rem) {
+@media (min-width: 70rem) {
   .container {
     padding: 7.5rem 10.3rem 6.25rem 10.3rem;
     display: grid;
@@ -153,7 +155,6 @@ header p {
     align-items: center;
     max-height: 3.5rem;
     max-width: 28rem;
-    font-size: 30px;
   }
   .five-star-reviews {
     padding: 4rem 0 2rem 0;
@@ -169,6 +170,14 @@ header p {
   }
   .best-tech {
     grid-column: 5 / 15;
+  }
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .testimonial {
+    max-width: 22rem;
+    max-height: 15rem;
   }
 }
 
