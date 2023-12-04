@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section solution
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,34 +16,27 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout for the section depending on their device's screen size
+- View the optimal layout for the section depending on their device's screen size.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/desktop-screenshot.png)
+![](./images/mobile-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Check out the code here: [](https://github.com/John-Davidson-8/fem-social-proof-section-master)
+- Check out the site here: [](https://fem-social-proof-section-site.netlify.app/)
 
 ## My process
+
+I began mobile first and using a one Grid column, then I set the responsive expansion media query at 70rem. I created one header and two sections. One section was five star review section created with small cards using CSS Flexbox. The second section was a testimonial section with three cards. In mobile version everything stacked in one column. For desktop it was two columns.
 
 ### Built with
 
@@ -52,59 +45,48 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Primarily this project was aimed at furthering my CSS Grid skills. Placing cards within a container in a laddered/staggered way was tricky, I had to create multiple rows for one and multiple columns for the other section. What was cool was that in creating the container with multiple rows, implicit rows kicked in when I commented out my proposed solution! Also, I once again managed to create a sticky footer with the attribution within it. It stays at the bottom of the viewport no matter what. Also, I used a class to maintain a consistent width throughout each section.
 
-To see how you can add code snippets, see below:
+Below is an example of code to keep footer to base of viewport, as long as the container with main content is set to 100vh and the footer is not within the container. This works well.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.container {
+  min-height: 100vh;
+  max-width: 36rem;
+  margin: 4rem auto;
+  background: var(--clr-secondary-3-white);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Below is the CSS Grid for the five star review section with multiple columns to make a laddered/staggered effect. This was created for the desktop version with media query set at 70rem, as mobile version only required cards to be stacked.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```css
+.five-star-reviews {
+  padding: 4rem 0 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  max-height: 20rem;
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+This is my third project using CSS Grid. It was more complex than the last couple and took a bit research. I am going to continue focusing on learning Grid and Javascript simultaneously.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [13 minute tutorial on Grid from Slaying the Dragon](https://www.youtube.com/watch?v=EiNiSFIPIQE&t=367s) - This short Youtube tutorial was excellent at reminding me of what I had read about previously on CSS Grid. All in the space of 13 minutes. Great teacher!
+- [Check out Shruti Balasa's book on CSS Flex and Grid](https://shrutibalasa.gumroad.com/l/css-flex-and-grid) - one of the most valuable resources on this for less than £20. She has fantastic exercises and explains concepts clearly.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [John Davidson](https://www.upwork.com/en-gb/freelancers/~018613765e268de80b)
+- Frontend Mentor - [@John-Davidson-8](https://www.frontendmentor.io/profile/John-Davidson-8)
+- Twitter - [@jodo828](https://twitter.com/jodo828)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks once again to Alex in the Frontend Mentor community for answering my questions.

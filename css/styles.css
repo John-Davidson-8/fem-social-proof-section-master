@@ -25,14 +25,12 @@ body {
   font-size: 0.938rem;
   color: var(--clr-secondary-1-darkGrayMagenta);
   background: var(--clr-secondary-2-lightGrayMagenta);
-  /* padding: 1rem 2rem; */
 }
 .container {
   min-height: 100vh;
   max-width: 36rem;
   margin: 4rem auto;
   background: var(--clr-secondary-3-white);
-  /* padding: 5.1rem 1.5rem auto 1.5rem; */
 }
 .section-centre {
   padding-left: 1.5rem;
