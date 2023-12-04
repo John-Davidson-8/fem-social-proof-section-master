@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Check out the code here: ](https://github.com/John-Davidson-8/fem-social-proof-section-master)
-- [Check out the site here: ](https://fem-social-proof-section-site.netlify.app/)
+- [Check out the code here](https://github.com/John-Davidson-8/fem-social-proof-section-master)
+- [Check out the site here](https://fem-social-proof-section-site.netlify.app/)
 
 ## My process
 
