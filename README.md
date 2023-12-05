@@ -50,7 +50,7 @@ I began mobile first and using a one Grid column, then I set the responsive expa
 
 Primarily this project was aimed at furthering my CSS Grid skills. Placing cards within a container in a laddered/staggered way was tricky, I had to create multiple rows for one and multiple columns for the other section. What was cool was that in creating the container with multiple rows, implicit rows kicked in when I commented out my proposed solution! Also, I once again managed to create a sticky footer with the attribution within it. It stays at the bottom of the viewport no matter what. Also, I used a class to maintain a consistent width throughout each section.
 
-Below is an example of code to keep footer to base of viewport, as long as the container with main content is set to 100vh and the footer is not within the container. This works well.
+Below is an example of code to keep the content aligned and justified centrally. This works well.
 
 ```css
 .container {
@@ -89,4 +89,6 @@ This is my third project using CSS Grid. It was more complex than the last coupl
 
 ## Acknowledgments
 
-Thanks once again to Alex in the Frontend Mentor community for answering my questions.
+Thanks to Florin.Porut06,
+Daniel Moraes Mariz, and AlexKMarshall
+in the Frontend Mentor community for answering my questions.

@@ -21,15 +21,18 @@
 }
 /* body */
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: var(--bodyFont);
   font-size: 0.938rem;
   color: var(--clr-secondary-1-darkGrayMagenta);
   background: var(--clr-secondary-2-lightGrayMagenta);
 }
 .container {
-  min-height: 100vh;
   max-width: 36rem;
-  margin: 0rem auto 0rem auto;
   background: var(--clr-secondary-3-white);
 }
 .section-centre {
